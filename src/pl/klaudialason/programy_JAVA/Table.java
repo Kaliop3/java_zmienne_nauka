@@ -24,7 +24,7 @@ public class Table {
         int[][] inst2 = inst3[0];
         System.out.println(inst2[0][0]);
 
-        //----------------exesite-----------//
+        //----------------  exercise task  -----------//
         System.out.println("==================");
 
         int table[]={5,2,6};

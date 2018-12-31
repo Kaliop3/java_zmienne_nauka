@@ -18,7 +18,7 @@ public class Variables {
 
         //Zmienne tekstowe
         char c = 'a';
-        String helloWord="Hello, how are you? ";
+        String helloWord = "Hello, how are you? ";
 
         //Zmienne logiczne
         boolean boo = true;
@@ -28,5 +28,35 @@ public class Variables {
         System.out.println(c);
         System.out.println(b);
         System.out.println(ll);
+        //---------------------------------------------
+
+        int x = 10;
+        int x1 = 20;
+        int x2 = 30;
+        int x3 = 40;
+
+        System.out.println("-----------------------------------------");
+        x1 += 4; // alt + ctrl + l
+        x2 /= 2;
+        x3 *= 2;
+        System.out.println(x++);
+        System.out.println(x1);
+        System.out.println(x2);
+        System.out.println(x3);
+        //--------------------const-----------------------//
+
+        final int X5 = 10;
+        int z6;
+        z6 = 87;
+
+        System.out.println(X5);
+
+        //------------------var----------------//
+
+        var e = 23;
+        var sa = 0.9;
+        var ds ="p";
+        var de =" Hej ";
+
     }
 }

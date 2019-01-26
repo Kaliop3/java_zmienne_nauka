@@ -5,6 +5,7 @@ public class Invoive {
     private String lastName;
     private Address address;
     private Subject info;
+    private String date;
 
     public String getFirstName() {
         return firstName;
